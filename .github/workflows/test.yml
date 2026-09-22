@@ -154,3 +154,12 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: allure-history
+
+    - name: Run Script with Password
+      # The env block maps the GitHub secret securely into an environment variable
+      env:
+          SLEEKFLOW_LOGIN_PASSWORD: ${{ secrets.SLEEKFLOW_LOGIN_PASSWORD }}
+      run: |
+        echo "Executing script..."
+        # Your script can now natively fetch the $SLEEKFLOW_LOGIN_PASSWORD variable
+        python run_tests.py

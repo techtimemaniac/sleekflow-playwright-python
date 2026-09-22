@@ -102,6 +102,7 @@ class TestSleekFlowLoginRegression:
         auth.wait_for_element(auth.PASSWORD_INPUT, timeout=auth.navigation_timeout)
         auth.page.locator(auth.PASSWORD_INPUT).fill(negative_case["password"])
         auth.page.get_by_role("button", name="Sign in", exact=True).click()
+        auth.wait_for_element(auth.ERROR_MESSAGE, timeout=auth.navigation_timeout)
         auth.assert_login_error(negative_case["expected_error"])
 
     def test_login_elements_are_visible(self, page):
