@@ -1,0 +1,17 @@
+2026-09-22 10:07:24 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 10:07:24 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_edit_button_returns_to_identifier_step[firefox]
+2026-09-22 10:07:24 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /Users/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login.py
+2026-09-22 10:07:24 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 10:07:25 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_edit_button_returns_to_identifier_step[firefox]
+2026-09-22 10:07:25 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-22 10:07:26 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 10:07:27 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-22 10:07:27 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-22 10:07:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Filling text 'shashankrfg@gmail.com' in element: input#email, input[type='email'], input[name='username']
+2026-09-22 10:07:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: button[type='submit'][name='action'][value='default']
+2026-09-22 10:07:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#password to be visible
+2026-09-22 10:07:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/login/password?state=hKFo2SB0VUppeE1ZeXZ0bU5nbm81Z2JGUElocWI0QWotY3pkX6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGRuRTJRWmN2eGRBbXRiMjZOc25nVFJjbE1qTGJPXy1no2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector='internal:text="Edit"s'> to be visible
+2026-09-22 10:07:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/login/password?state=hKFo2SB0VUppeE1ZeXZ0bU5nbm81Z2JGUElocWI0QWotY3pkX6Fur3VuaXZlcnNhbC1sb2dpbqN0aWTZIGRuRTJRWmN2eGRBbXRiMjZOc25nVFJjbE1qTGJPXy1no2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector='internal:role=switch[name="Show password"s]'> to be visible
+2026-09-22 10:07:29 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 10:07:29 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_login_edit_button_returns_to_identifier_step[firefox]
+2026-09-22 10:07:29 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_edit_button_returns_to_identifier_step[firefox]

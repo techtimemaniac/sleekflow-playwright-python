@@ -1,0 +1,11 @@
+2026-09-22 10:08:16 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 10:08:16 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_buttons_are_visible_and_enabled[firefox]
+2026-09-22 10:08:16 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /Users/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login.py
+2026-09-22 10:08:16 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 10:08:16 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_buttons_are_visible_and_enabled[firefox]
+2026-09-22 10:08:17 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-22 10:08:18 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 10:08:18 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-22 10:08:19 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-22 10:08:19 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_login_buttons_are_visible_and_enabled[firefox]
+2026-09-22 10:08:19 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_buttons_are_visible_and_enabled[firefox]
