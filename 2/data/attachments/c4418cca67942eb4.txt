@@ -1,0 +1,11 @@
+2026-09-22 08:53:23 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 08:53:23 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_page_is_ready[firefox]
+2026-09-22 08:53:23 - [0mtests.conftest[0m - [32mINFO[0m - Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_login_smoke.py
+2026-09-22 08:53:23 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 08:53:23 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_page_is_ready[firefox]
+2026-09-22 08:53:24 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-22 08:53:26 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 08:53:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-22 08:53:28 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-22 08:53:29 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_login_page_is_ready[firefox]
+2026-09-22 08:53:29 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_page_is_ready[firefox]

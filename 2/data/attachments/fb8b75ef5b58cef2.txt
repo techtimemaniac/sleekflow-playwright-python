@@ -1,0 +1,14 @@
+2026-09-22 08:51:52 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 08:51:52 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_language_dropdown_is_interactive[firefox]
+2026-09-22 08:51:52 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /Users/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login.py
+2026-09-22 08:51:52 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 08:51:52 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_language_dropdown_is_interactive[firefox]
+2026-09-22 08:51:52 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-22 08:51:53 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 08:51:54 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-22 08:51:54 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-22 08:51:55 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: #selected-language-label
+2026-09-22 08:51:55 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element #language-dropdown to be visible
+2026-09-22 08:51:55 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: #language-dropdown #en
+2026-09-22 08:51:55 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_login_language_dropdown_is_interactive[firefox]
+2026-09-22 08:51:55 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_language_dropdown_is_interactive[firefox]
