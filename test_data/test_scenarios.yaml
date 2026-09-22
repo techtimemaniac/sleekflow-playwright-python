@@ -1,0 +1,84 @@
+sleekflow_auth:
+  waits:
+    page_load_ms: 30000
+    navigation_ms: 30000
+    oauth_ms: 30000
+    verification_ms: 30000
+  signup:
+    - name: "Gmail signup"
+      email_local_part: "testsleekflow21"
+      email_domain: "gmail.com"
+      dummy_otp: "123456"
+  signup_validation:
+    invalid_emails:
+      - name: "Missing at sign"
+        email: "invalid-email"
+        expected_error: "email is not valid"
+      - name: "Missing domain"
+        email: "invalid@"
+        expected_error: "email is not valid"
+      - name: "Missing local part"
+        email: "@gmail.com"
+        expected_error: "email is not valid"
+      - name: "Missing top-level domain"
+        email: "invalid@gmail"
+        expected_error: "email is not valid"
+    invalid_passwords:
+      - name: "Password below minimum length"
+        password: "Ab1!"
+        expected_error: "at least"
+      - name: "Short password without uppercase letter"
+        password: "abc1!"
+        expected_error: "at least"
+      - name: "Short password without special character"
+        password: "Ab123"
+        expected_error: "at least"
+  login:
+    - name: "Provisioned SleekFlow account"
+      email: "shashankrfg@gmail.com"
+      expected_authenticated_heading: "What's your company name?"
+  smoke:
+    successful_login_case: "Provisioned SleekFlow account"
+    negative_login_case: "Empty email"
+  negative_login:
+    - name: "Invalid email format"
+      email: "invalid-email"
+      expected_stage: "password"
+    - name: "Numeric identifier"
+      email: "123"
+      expected_stage: "error"
+      expected_error: "Username should have between 5 and 128 characters"
+    - name: "Alphabetic identifier"
+      email: "abc"
+      expected_stage: "error"
+      expected_error: "Username should have between 5 and 128 characters"
+    - name: "Special character identifier"
+      email: "@@@!!%%"
+      expected_stage: "error"
+      expected_error: "Username can only contain alphanumeric characters"
+    - name: "Empty email"
+      email: ""
+      expected_stage: "error"
+      expected_error: "Email address or username is required"
+    - name: "Wrong password"
+      email: "negative-login@example.invalid"
+      password: "WrongPassword!123"
+      expected_stage: "password"
+      expected_error: "Wrong username or password"
+  login_page:
+    expected_heading: "Welcome back"
+    expected_subheading: "Sign in to continue to SleekFlow"
+    expected_account_prompt: "Don't have an account?"
+    signup_link_text: "Sign up"
+    buttons:
+      - "Continue"
+      - "Continue with Google"
+      - "Continue with Apple"
+    language:
+      label: "English"
+      option_id: "en"
+    oauth_hosts:
+      google: "accounts.google.com"
+      apple: "appleid.apple.com"
+    navigation_paths:
+      signup: "/u/signup/"
