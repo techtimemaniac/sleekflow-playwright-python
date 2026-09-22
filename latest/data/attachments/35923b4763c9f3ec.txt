@@ -1,0 +1,8 @@
+DEBUG    asyncio:selector_events.py:54 Using selector: EpollSelector
+INFO     [0mtests.conftest[0m:conftest.py:238 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:239 Starting test: test_login_with_signup_account[chromium-Provisioned SleekFlow account]
+INFO     [0mtests.conftest[0m:conftest.py:240 Test file: /home/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login.py
+INFO     [0mtests.conftest[0m:conftest.py:241 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:119 Creating new page for test: test_login_with_signup_account[chromium-Provisioned SleekFlow account]
+INFO     [0mtests.conftest[0m:conftest.py:188 Test PASSED: test_login_with_signup_account[chromium-Provisioned SleekFlow account]
+INFO     [0mtests.conftest[0m:conftest.py:245 Finished test: test_login_with_signup_account[chromium-Provisioned SleekFlow account]

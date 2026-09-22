@@ -1,0 +1,13 @@
+2026-09-22 08:44:53 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 08:44:53 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_to_signup_navigation[chromium]
+2026-09-22 08:44:53 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /home/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login.py
+2026-09-22 08:44:53 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 08:44:53 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_to_signup_navigation[chromium]
+2026-09-22 08:44:53 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-22 08:44:54 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 08:44:55 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-22 08:44:55 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-22 08:44:56 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/login/identifier?state=hKFo2SBuWmU2eHBkb2xWUjh6alQ2R3JXRDRLZG1KOUJNOWg1cqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEsySTE0MlpmUkI1bk5pbEQweXhDcEp5bVpONDRiUDFvo2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector='internal:role=link[name="Sign up"s]'>
+2026-09-22 08:44:57 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 08:44:57 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_login_to_signup_navigation[chromium]
+2026-09-22 08:44:57 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_to_signup_navigation[chromium]
