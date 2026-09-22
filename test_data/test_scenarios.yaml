@@ -51,7 +51,7 @@ sleekflow_auth:
     - name: "Alphabetic identifier"
       email: "abc"
       expected_stage: "error"
-      expected_error: "Username should have between 5 and 128 characters"
+      expected_error: "Username can only contain alphanumeric characters"
     - name: "Special character identifier"
       email: "@@@!!%%"
       expected_stage: "error"
