@@ -1,0 +1,13 @@
+2026-09-22 09:26:30 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 09:26:30 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_negative_login_scenarios[chromium-Invalid email format]
+2026-09-22 09:26:30 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /home/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login.py
+2026-09-22 09:26:30 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-22 09:26:30 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_negative_login_scenarios[chromium-Invalid email format]
+2026-09-22 09:26:30 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-22 09:26:31 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-22 09:26:32 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-22 09:26:32 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-22 09:26:33 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Filling text 'invalid-email' in element: input#email, input[type='email'], input[name='username']
+2026-09-22 09:26:33 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: button[type='submit'][name='action'][value='default']
+2026-09-22 09:26:33 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_negative_login_scenarios[chromium-Invalid email format]
+2026-09-22 09:26:33 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_negative_login_scenarios[chromium-Invalid email format]
