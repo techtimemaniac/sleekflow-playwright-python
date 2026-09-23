@@ -1,0 +1,13 @@
+2026-09-23 07:19:41 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-23 07:19:41 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_to_signup_navigation[firefox]
+2026-09-23 07:19:41 - [0mtests.conftest[0m - [32mINFO[0m - Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_login.py
+2026-09-23 07:19:41 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-23 07:19:41 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_to_signup_navigation[firefox]
+2026-09-23 07:19:42 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-09-23 07:19:44 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-23 07:19:46 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element h1:has-text('Welcome back') to be visible
+2026-09-23 07:19:46 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element img[src*='Black_logo'] to be visible
+2026-09-23 07:19:47 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/login/identifier?state=hKFo2SBwV1l4RUpVVUd5dGJzdnYzUXZVT1NzQi04N0NvMHNERaFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHNzVDM4VFA2S19KbGxYZzUxMUdpLVg0QmxTOXpFVDN3o2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector='internal:role=link[name="Sign up"s]'>
+2026-09-23 07:19:48 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-23 07:19:48 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_login_to_signup_navigation[firefox]
+2026-09-23 07:19:48 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_to_signup_navigation[firefox]

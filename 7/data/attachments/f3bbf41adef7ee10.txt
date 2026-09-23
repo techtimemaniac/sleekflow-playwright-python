@@ -1,0 +1,17 @@
+INFO     [0mtests.conftest[0m:conftest.py:238 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:239 Starting test: test_login_eye_icon_toggles_password_visibility[chromium]
+INFO     [0mtests.conftest[0m:conftest.py:240 Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_login.py
+INFO     [0mtests.conftest[0m:conftest.py:241 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:119 Creating new page for test: test_login_eye_icon_toggles_password_visibility[chromium]
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:46 Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element h1:has-text('Welcome back') to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element img[src*='Black_logo'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:108 Filling text 'shashankrfg@gmail.com' in element: input#email, input[type='email'], input[name='username']
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:81 Clicking element: button[type='submit'][name='action'][value='default']
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element input#password to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/login/password?state=hKFo2SA0ZzM3bXNjczVNYkYwNnpEdWl5aEx4YW1IUS1WYU45QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFJySTdDY2JuZ2hNU3poai1taHRXLU50Qmd0cUFkMUZio2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector='internal:text="Edit"s'> to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/login/password?state=hKFo2SA0ZzM3bXNjczVNYkYwNnpEdWl5aEx4YW1IUS1WYU45QqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFJySTdDY2JuZ2hNU3poai1taHRXLU50Qmd0cUFkMUZio2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector='internal:role=switch[name="Show password"s]'> to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:108 Filling text '***' in element: input#password
+INFO     [0mtests.conftest[0m:conftest.py:188 Test PASSED: test_login_eye_icon_toggles_password_visibility[chromium]
+INFO     [0mtests.conftest[0m:conftest.py:245 Finished test: test_login_eye_icon_toggles_password_visibility[chromium]
