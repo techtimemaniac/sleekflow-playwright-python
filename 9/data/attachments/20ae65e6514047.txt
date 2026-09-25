@@ -1,0 +1,13 @@
+2026-09-25 07:07:23 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-25 07:07:23 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_signup_rejects_invalid_email_formats[firefox-Missing top-level domain]
+2026-09-25 07:07:23 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /home/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_signup.py
+2026-09-25 07:07:23 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-09-25 07:07:23 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_signup_rejects_invalid_email_formats[firefox-Missing top-level domain]
+2026-09-25 07:07:24 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en?screen_hint=signup
+2026-09-25 07:07:25 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-09-25 07:07:26 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input[name='ulp-terms-of-service'] to be visible
+2026-09-25 07:07:26 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element button[type='submit'][name='action'][value='default'] to be visible
+2026-09-25 07:07:26 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Filling text 'invalid@gmail' in element: input#email, input[type='email'], input[name='username']
+2026-09-25 07:07:26 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: button[type='submit'][name='action'][value='default']
+2026-09-25 07:07:26 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_signup_rejects_invalid_email_formats[firefox-Missing top-level domain]
+2026-09-25 07:07:26 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_signup_rejects_invalid_email_formats[firefox-Missing top-level domain]

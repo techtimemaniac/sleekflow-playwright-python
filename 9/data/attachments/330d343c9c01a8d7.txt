@@ -1,0 +1,16 @@
+INFO     [0mtests.conftest[0m:conftest.py:238 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:239 Starting test: test_negative_login_scenarios[webkit-Numeric identifier]
+INFO     [0mtests.conftest[0m:conftest.py:240 Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_login.py
+INFO     [0mtests.conftest[0m:conftest.py:241 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:119 Creating new page for test: test_negative_login_scenarios[webkit-Numeric identifier]
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:46 Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element h1:has-text('Welcome back') to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element img[src*='Black_logo'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:108 Filling text '123' in element: input#email, input[type='email'], input[name='username']
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:81 Clicking element: button[type='submit'][name='action'][value='default']
+ERROR    [0mtests.conftest[0m:conftest.py:154 Test FAILED: test_negative_login_scenarios[webkit-Numeric identifier]
+INFO     [0mtests.conftest[0m:conftest.py:162 Screenshot saved: screenshots\test_negative_login_scenarios[webkit-Numeric identifier]_20260925_070859.png
+INFO     [0mtests.conftest[0m:conftest.py:177 Trace saved: traces\test_negative_login_scenarios[webkit-Numeric identifier]_20260925_070900.zip
+INFO     [0mtests.conftest[0m:conftest.py:202 Video saved: videos\tests_test_sleekflow_login.py_TestSleekFlowLoginRegression_test_negative_login_scenarios_webkit-Numeric_identifier__20260925_070900.webm
+INFO     [0mtests.conftest[0m:conftest.py:245 Finished test: test_negative_login_scenarios[webkit-Numeric identifier]
