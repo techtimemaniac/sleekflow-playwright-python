@@ -1,0 +1,7 @@
+INFO     [0mtests.conftest[0m:conftest.py:238 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:239 Starting test: test_successful_login[webkit]
+INFO     [0mtests.conftest[0m:conftest.py:240 Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_login_smoke.py
+INFO     [0mtests.conftest[0m:conftest.py:241 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:119 Creating new page for test: test_successful_login[webkit]
+INFO     [0mtests.conftest[0m:conftest.py:188 Test PASSED: test_successful_login[webkit]
+INFO     [0mtests.conftest[0m:conftest.py:245 Finished test: test_successful_login[webkit]
