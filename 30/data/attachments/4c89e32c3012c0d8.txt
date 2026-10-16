@@ -1,0 +1,13 @@
+2026-10-16 06:49:09 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-10-16 06:49:09 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_signup_to_login_navigation[chromium]
+2026-10-16 06:49:09 - [0mtests.conftest[0m - [32mINFO[0m - Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_signup.py
+2026-10-16 06:49:09 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-10-16 06:49:09 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_signup_to_login_navigation[chromium]
+2026-10-16 06:49:09 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en?screen_hint=signup
+2026-10-16 06:49:10 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-10-16 06:49:11 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input[name='ulp-terms-of-service'] to be visible
+2026-10-16 06:49:11 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element button[type='submit'][name='action'][value='default'] to be visible
+2026-10-16 06:49:11 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Clicking element: <Locator frame=<Frame name= url='https://sso.sleekflow.io/u/signup/identifier?state=hKFo2SB2TllqMTU4R0ZFNTc4WG9HUGxTa2FFbmxPcHJYYWJsVKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIF90SEFLS09ZcVZMVko0Q2xQckJEY09nMGUydXU2N1RDo2NpZNkgSkY2SGVTMUV4aFlSOHppZzhMNFRxdUlvMVhLTVZTaUM&ui_locales=en'> selector="a:has-text('Sign in')">
+2026-10-16 06:49:12 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-10-16 06:49:12 - [0mtests.conftest[0m - [32mINFO[0m - Test PASSED: test_signup_to_login_navigation[chromium]
+2026-10-16 06:49:12 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_signup_to_login_navigation[chromium]
