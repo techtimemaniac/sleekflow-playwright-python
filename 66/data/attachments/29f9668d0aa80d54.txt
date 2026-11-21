@@ -1,0 +1,13 @@
+INFO     [0mtests.conftest[0m:conftest.py:238 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:239 Starting test: test_signup_rejects_invalid_email_formats[chromium-Missing domain]
+INFO     [0mtests.conftest[0m:conftest.py:240 Test file: D:\a\sleekflow-playwright-python\sleekflow-playwright-python\tests\test_sleekflow_signup.py
+INFO     [0mtests.conftest[0m:conftest.py:241 ================================================================================
+INFO     [0mtests.conftest[0m:conftest.py:119 Creating new page for test: test_signup_rejects_invalid_email_formats[chromium-Missing domain]
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:46 Navigating to: https://app.sleekflow.io/en?screen_hint=signup
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element input[name='ulp-terms-of-service'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:218 Waiting for element button[type='submit'][name='action'][value='default'] to be visible
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:108 Filling text 'invalid@' in element: input#email, input[type='email'], input[name='username']
+INFO     [0mSleekFlowAutomationPage[0m:base_page.py:81 Clicking element: button[type='submit'][name='action'][value='default']
+INFO     [0mtests.conftest[0m:conftest.py:188 Test PASSED: test_signup_rejects_invalid_email_formats[chromium-Missing domain]
+INFO     [0mtests.conftest[0m:conftest.py:245 Finished test: test_signup_rejects_invalid_email_formats[chromium-Missing domain]
