@@ -1,0 +1,12 @@
+2026-11-23 10:20:23 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-11-23 10:20:23 - [0mtests.conftest[0m - [32mINFO[0m - Starting test: test_login_rejects_negative_identifier[chromium]
+2026-11-23 10:20:23 - [0mtests.conftest[0m - [32mINFO[0m - Test file: /Users/runner/work/sleekflow-playwright-python/sleekflow-playwright-python/tests/test_sleekflow_login_smoke.py
+2026-11-23 10:20:23 - [0mtests.conftest[0m - [32mINFO[0m - ================================================================================
+2026-11-23 10:20:23 - [0mtests.conftest[0m - [32mINFO[0m - Creating new page for test: test_login_rejects_negative_identifier[chromium]
+2026-11-23 10:20:23 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Navigating to: https://app.sleekflow.io/en/inbox?screen_hint=login
+2026-11-23 10:20:24 - [0mSleekFlowAutomationPage[0m - [32mINFO[0m - Waiting for element input#email, input[type='email'], input[name='username'] to be visible
+2026-11-23 10:20:54 - [0mtests.conftest[0m - [31mERROR[0m - Test FAILED: test_login_rejects_negative_identifier[chromium]
+2026-11-23 10:20:54 - [0mtests.conftest[0m - [32mINFO[0m - Screenshot saved: screenshots/test_login_rejects_negative_identifier[chromium]_20261123_102054.png
+2026-11-23 10:20:55 - [0mtests.conftest[0m - [32mINFO[0m - Trace saved: traces/test_login_rejects_negative_identifier[chromium]_20261123_102054.zip
+2026-11-23 10:20:56 - [0mtests.conftest[0m - [32mINFO[0m - Video saved: videos/tests_test_sleekflow_login_smoke.py_TestSleekFlowLoginSmoke_test_login_rejects_negative_identifier_chromium__20261123_102056.webm
+2026-11-23 10:20:56 - [0mtests.conftest[0m - [32mINFO[0m - Finished test: test_login_rejects_negative_identifier[chromium]
